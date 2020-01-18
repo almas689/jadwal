@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99FFFF"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="40dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#019875"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:text="Ashar"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:id="@+id/tv_ashar_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:background="#ffffff"
+            android:text="Value" />
+
+
+    <TextView
+            android:layout_marginTop="8dp"
+            android:text="Dhuha"
+        android:background="#019875"
+        android:textColor="#ffffffff"
+        android:textSize="30dp"
+        android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:id="@+id/tv_dhuha_value"
+            android:text="Value"
+            android:textSize="25dp"
+            android:background="#ffffff"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:text="Dzuhur"
+            android:background="#019875"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:id="@+id/tv_dzuhur_value"
+            android:text="Value"
+            android:textSize="25dp"
+            android:background="#ffffff"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:text="Isya"
+            android:background="#019875"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:id="@+id/tv_isya_value"
+            android:text="Value"
+            android:textSize="25dp"
+            android:background="#ffffff"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:text="Maghrib"
+            android:background="#019875"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:id="@+id/tv_maghrib_value"
+            android:text="Value"
+            android:textSize="25dp"
+            android:background="#ffffff"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:text="Subuh"
+            android:background="#019875"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:id="@+id/tv_subuh_value"
+            android:text="Value"
+            android:textSize="25dp"
+            android:background="#ffffff"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
